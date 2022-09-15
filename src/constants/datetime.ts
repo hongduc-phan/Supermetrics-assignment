@@ -1,0 +1,1 @@
+export const POST_FORMAT = 'MMM DD, YYYY HH:mm:ss'

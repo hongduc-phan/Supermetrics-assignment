@@ -1,0 +1,57 @@
+.nav {
+  margin-bottom: 12px;
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons-group {
+  display: flex;
+  flex: 2;
+  margin-left: 24px;
+}
+
+
+.icon-btn {
+  background-color: black;
+  margin-right: 12px;
+  cursor: pointer;
+
+}
+.icon-btn:disabled {
+  cursor: default;
+  background-color: gray;
+}
+.icon-up {
+  width: 0;
+  height: 0;
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+  border-bottom: 20px solid white;
+  padding: 0;
+}
+
+.icon-down {
+  width: 0;
+  height: 0;
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+  border-top: 20px solid white;
+  padding: 0;
+}
+
+.postSearch-area {
+  flex: 1;
+}
+
+.userSearch-area {
+  flex: 1;
+}
+
+.userSearch-wrapper {
+  padding-right: 40px;
+}
+
+.postSearch-wrapper {
+  padding-left: 40px;
+}

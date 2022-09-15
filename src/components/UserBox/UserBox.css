@@ -1,0 +1,29 @@
+.box {
+  width: 100%;
+  padding: 6px 16px;
+  border: 2px solid black;
+  margin-bottom: 12px;
+  background: lightgray;
+  cursor: pointer;
+}
+.box-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.value-wrapper {
+  background: gray;
+  border-radius: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+}
+
+.box-value {
+  text-align: center;
+  font-weight: 500;
+}
